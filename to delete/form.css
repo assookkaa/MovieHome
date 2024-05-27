@@ -1,0 +1,117 @@
+body {
+    background-image: url('pictures/moviehome.jpg'); 
+    background-color: black;
+    background-size: cover;
+    margin: 0;
+    padding: auto;
+    background-color: black;
+}
+
+.login {
+    width: 300px; /* Set a specific width for the login section */
+    margin: 50px auto; /* Center the login section */
+    padding: 20px;
+    border: 1px solid #070707; /* Add a border with a light gray color */
+    border-radius: 8px; /* Add rounded corners for a nicer look */
+    background-color: white;
+}
+
+.login h2 {
+    text-align: center; /* Center the heading within the login section */
+}
+
+.form-group {
+    margin-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+input[type="submit"] {
+    background-color: #4caf50; /* Green background color */
+    color: white;
+    cursor: pointer;
+}
+
+/* Additional styles as needed */
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+    
+}
+
+
+/* Add more styles as needed */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    
+}
+
+
+.registration-container {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #110f0f;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 500px;
+    height: auto;
+    
+}
+
+h2 {
+    color: #0d0c0c;
+}
+
+.form-group {
+    margin: 10px 0;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 200px;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Add more styles as needed */

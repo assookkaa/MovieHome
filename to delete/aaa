@@ -1,0 +1,414 @@
+ </form>
+        <div class="ticket">
+            <img src="pictures/room2.jpg" style="width:500px;" alt="Room 1">
+            <h3>Room 2</h3>
+            <label for="status">Status:</label>
+            <select id="status" name="status" required>
+                <option value="available">Available</option>
+                <option value="booked">Booked</option>
+            </select>
+            <label for="date">Select Date:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="time">Select Showtime:</label>
+            <input type="time" id="time" name="time" required onchange="validateReservationTime()">
+
+            <label for="persons">Number of Persons:</label>
+            <select id="persons" name="persons" onchange="updatePrice()">
+                <option value="1">1 person</option>
+                <option value="2">2 persons</option>
+                <option value="3">3 persons</option>
+                <option value="4">4 persons</option>
+                <!-- Add more options as needed -->
+            </select>
+            <h4>FOODS</h4>
+            <div class="add-on">
+                <input type="checkbox" id="popcorn" name="add-ons[]" value="Popcorn">
+                <label for="popcorn">
+                    <img src="pictures/popcorn.jpg" alt="Popcorn">
+                    <span>Popcorn - 5.00</span>
+                </label>
+            </div>
+
+            <div class="add-on">
+                <input type="checkbox" id="soda" name="add-ons[]" value="Soda">
+                <label for="soda">
+                    <img src="pictures/soda.jpg" alt="Soda">
+                    <span>Soda - 3.00</span>
+                </label>
+            </div>
+
+
+            <button class="buy-button" onclick="validateReservationTime()">Reserve Room</button>
+        </div>
+        <div class="ticket">
+            <img src="pictures/room3.jpg" style="width:500px;" alt="Room 1">
+            <h3>Room 3</h3>
+            <label for="status">Status:</label>
+            <select id="status" name="status" required>
+                <option value="available">Available</option>
+                <option value="booked">Booked</option>
+            </select>
+            <label for="date">Select Date:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="time">Select Showtime:</label>
+            <input type="time" id="time" name="time" required onchange="validateReservationTime()">
+
+            <label for="persons">Number of Persons:</label>
+            <select id="persons" name="persons" onchange="updatePrice()">
+                <option value="1">1 person</option>
+                <option value="2">2 persons</option>
+                <option value="3">3 persons</option>
+                <option value="4">4 persons</option>
+                <!-- Add more options as needed -->
+            </select>
+            <h4>FOODS</h4>
+            <div class="add-on">
+                <input type="checkbox" id="popcorn" name="add-ons[]" value="Popcorn">
+                <label for="popcorn">
+                    <img src="pictures/popcorn.jpg" alt="Popcorn">
+                    <span>Popcorn - 5.00</span>
+                </label>
+            </div>
+
+            <div class="add-on">
+                <input type="checkbox" id="soda" name="add-ons[]" value="Soda">
+                <label for="soda">
+                    <img src="pictures/soda.jpg" alt="Soda">
+                    <span>Soda - 3.00</span>
+                </label>
+            </div>
+
+
+            <button class="buy-button" onclick="validateReservationTime()">Reserve Room</button>
+        </div>
+        <div class="ticket">
+            <img src="pictures/room4.jpg" style="width:500px;" alt="Room 1">
+            <h3>Room 4</h3>
+            <label for="status">Status:</label>
+            <select id="status" name="status" required>
+                <option value="available">Available</option>
+                <option value="booked">Booked</option>
+            </select>
+            <label for="date">Select Date:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="time">Select Showtime:</label>
+            <input type="time" id="time" name="time" required onchange="validateReservationTime()">
+
+            <label for="persons">Number of Persons:</label>
+            <select id="persons" name="persons" onchange="updatePrice()">
+                <option value="1">1 person</option>
+                <option value="2">2 persons</option>
+                <option value="3">3 persons</option>
+                <option value="4">4 persons</option>
+                <option value="5">5 and above</option>
+                <!-- Add more options as needed -->
+            </select>
+            <h4>FOODS</h4>
+            <div class="add-on">
+                <input type="checkbox" id="popcorn" name="add-ons[]" value="Popcorn">
+                <label for="popcorn">
+                    <img src="pictures/popcorn.jpg" alt="Popcorn">
+                    <span>Popcorn - 5.00</span>
+                </label>
+            </div>
+
+            <div class="add-on">
+                <input type="checkbox" id="soda" name="add-ons[]" value="Soda">
+                <label for="soda">
+                    <img src="pictures/soda.jpg" alt="Soda">
+                    <span>Soda - 3.00</span>
+                </label>
+            </div>
+
+
+            <button class="buy-button" onclick="validateReservationTime()">Reserve Room</button>
+        </div>
+        <div class="ticket">
+            <img src="pictures/room5.jpg" style="width:500px;" alt="Room 1">
+            <h3>Room 5</h3>
+            <label for="status">Status:</label>
+            <select id="status" name="status" required>
+                <option value="available">Available</option>
+                <option value="booked">Booked</option>
+            </select>
+            <label for="date">Select Date:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="time">Select Showtime:</label>
+            <input type="time" id="time" name="time" required onchange="validateReservationTime()">
+
+            <label for="persons">Number of Persons:</label>
+            <select id="persons" name="persons" onchange="updatePrice()">
+                <option value="1">1 person</option>
+                <option value="2">2 persons</option>
+            </select>
+            <h4>FOODS</h4>
+            <div class="add-on">
+                <input type="checkbox" id="popcorn" name="add-ons[]" value="Popcorn">
+                <label for="popcorn">
+                    <img src="pictures/popcorn.jpg" alt="Popcorn">
+                    <span>Popcorn - 5.00</span>
+                </label>
+            </div>
+
+            <div class="add-on">
+                <input type="checkbox" id="soda" name="add-ons[]" value="Soda">
+                <label for="soda">
+                    <img src="pictures/soda.jpg" alt="Soda">
+                    <span>Soda - 3.00</span>
+                </label>
+            </div>
+
+
+            <button class="buy-button" onclick="validateReservationTime()">Reserve Room</button>
+        </div>
+        <div class="ticket">
+            <img src="pictures/room6.jpg" style="width:500px;" alt="Room 1">
+            <h3>Room 6</h3>
+            <label for="status">Status:</label>
+            <select id="status" name="status" required>
+                <option value="available">Available</option>
+                <option value="booked">Booked</option>
+            </select>
+            <label for="date">Select Date:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="time">Select Showtime:</label>
+            <input type="time" id="time" name="time" required onchange="validateReservationTime()">
+
+            <label for="persons">Number of Persons:</label>
+            <select id="persons" name="persons" onchange="updatePrice()">
+                <option value="1">1 person</option>
+                <option value="2">2 persons</option>
+            </select>
+            <h4>FOODS</h4>
+            <div class="add-on">
+                <input type="checkbox" id="popcorn" name="add-ons[]" value="Popcorn">
+                <label for="popcorn">
+                    <img src="pictures/popcorn.jpg" alt="Popcorn">
+                    <span>Popcorn - 5.00</span>
+                </label>
+            </div>
+
+            <div class="add-on">
+                <input type="checkbox" id="soda" name="add-ons[]" value="Soda">
+                <label for="soda">
+                    <img src="pictures/soda.jpg" alt="Soda">
+                    <span>Soda - 3.00</span>
+                </label>
+            </div>
+
+
+            <button class="buy-button" onclick="validateReservationTime()">Reserve Room</button>
+        </div>
+        <div class="ticket">
+            <img src="pictures/room7.jpg" style="width:500px;" alt="Room 1">
+            <h3>Room 7</h3>
+            <label for="status">Status:</label>
+            <select id="status" name="status" required>
+                <option value="available">Available</option>
+                <option value="booked">Booked</option>
+            </select>
+            <label for="date">Select Date:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="time">Select Showtime:</label>
+            <input type="time" id="time" name="time" required onchange="validateReservationTime()">
+
+            <label for="persons">Number of Persons:</label>
+            <select id="persons" name="persons" onchange="updatePrice()">
+                <option value="1">1 person</option>
+                <option value="2">2 persons</option>
+            </select>
+            <h4>FOODS</h4>
+            <div class="add-on">
+                <input type="checkbox" id="popcorn" name="add-ons[]" value="Popcorn">
+                <label for="popcorn">
+                    <img src="pictures/popcorn.jpg" alt="Popcorn">
+                    <span>Popcorn - 5.00</span>
+                </label>
+            </div>
+
+            <div class="add-on">
+                <input type="checkbox" id="soda" name="add-ons[]" value="Soda">
+                <label for="soda">
+                    <img src="pictures/soda.jpg" alt="Soda">
+                    <span>Soda - 3.00</span>
+                </label>
+            </div>
+
+
+            <button class="buy-button" onclick="validateReservationTime()">Reserve Room</button>
+        </div>
+        <div class="ticket">
+            <img src="pictures/room8.jpg" style="width:500px;" alt="Room 1">
+            <h3>Room 8</h3>
+            <label for="status">Status:</label>
+            <select id="status" name="status" required>
+                <option value="available">Available</option>
+                <option value="booked">Booked</option>
+            </select>
+            <label for="date">Select Date:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="time">Select Showtime:</label>
+            <input type="time" id="time" name="time" required onchange="validateReservationTime()">
+
+            <label for="persons">Number of Persons:</label>
+            <select id="persons" name="persons" onchange="updatePrice()">
+                <option value="1">1 person</option>
+                <option value="2">2 persons</option>
+            </select>
+            <h4>FOODS</h4>
+            <div class="add-on">
+                <input type="checkbox" id="popcorn" name="add-ons[]" value="Popcorn">
+                <label for="popcorn">
+                    <img src="pictures/popcorn.jpg" alt="Popcorn">
+                    <span>Popcorn - 5.00</span>
+                </label>
+            </div>
+
+            <div class="add-on">
+                <input type="checkbox" id="soda" name="add-ons[]" value="Soda">
+                <label for="soda">
+                    <img src="pictures/soda.jpg" alt="Soda">
+                    <span>Soda - 3.00</span>
+                </label>
+            </div>
+
+
+            <button class="buy-button" onclick="validateReservationTime()">Reserve Room</button>
+        </div>
+        <div class="ticket">
+            <img src="pictures/room9.jpg" style="width:500px;" alt="Room 1">
+            <h3>Room 9</h3>
+            <label for="status">Status:</label>
+            <select id="status" name="status" required>
+                <option value="available">Available</option>
+                <option value="booked">Booked</option>
+            </select>
+            <label for="date">Select Date:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="time">Select Showtime:</label>
+            <input type="time" id="time" name="time" required onchange="validateReservationTime()">
+
+            <label for="persons">Number of Persons:</label>
+            <select id="persons" name="persons" onchange="updatePrice()">
+                <option value="1">1 person</option>
+                <option value="2">2 persons</option>
+                <option value="3">3 persons</option>
+                <option value="4">4 persons</option>
+                <option value="5">5 and above</option>
+                <option value="6">barkada/family</option>
+                <!-- Add more options as needed -->
+            </select>
+            <h4>FOODS</h4>
+            <div class="add-on">
+                <input type="checkbox" id="popcorn" name="add-ons[]" value="Popcorn">
+                <label for="popcorn">
+                    <img src="pictures/popcorn.jpg" alt="Popcorn">
+                    <span>Popcorn - 5.00</span>
+                </label>
+            </div>
+
+            <div class="add-on">
+                <input type="checkbox" id="soda" name="add-ons[]" value="Soda">
+                <label for="soda">
+                    <img src="pictures/soda.jpg" alt="Soda">
+                    <span>Soda - 3.00</span>
+                </label>
+            </div>
+
+
+            <button class="buy-button" onclick="validateReservationTime()">Reserve Room</button>
+        </div>
+        <div class="ticket">
+            <img src="pictures/room10.jpg" style="width:500px;" alt="Room 1">
+            <h3>Room 10</h3>
+            <label for="status">Status:</label>
+            <select id="status" name="status" required>
+                <option value="available">Available</option>
+                <option value="booked">Booked</option>
+            </select>
+            <label for="date">Select Date:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="time">Select Showtime:</label>
+            <input type="time" id="time" name="time" required onchange="validateReservationTime()">
+
+            <label for="persons">Number of Persons:</label>
+            <select id="persons" name="persons" onchange="updatePrice()">
+                <option value="1">1 person</option>
+                <option value="2">2 persons</option>
+                <option value="3">3 persons</option>
+                <option value="4">4 persons</option>
+                <option value="5">5 and above</option>
+                <option value="6">barkada/family</option>
+                <!-- Add more options as needed -->
+            </select>
+            <h4>FOODS</h4>
+            <div class="add-on">
+                <input type="checkbox" id="popcorn" name="add-ons[]" value="Popcorn">
+                <label for="popcorn">
+                    <img src="pictures/popcorn.jpg" alt="Popcorn">
+                    <span>Popcorn - 5.00</span>
+                </label>
+            </div>
+
+            <div class="add-on">
+                <input type="checkbox" id="soda" name="add-ons[]" value="Soda">
+                <label for="soda">
+                    <img src="pictures/soda.jpg" alt="Soda">
+                    <span>Soda - 3.00</span>
+                </label>
+            </div>
+
+
+            <button class="buy-button" onclick="validateReservationTime()">Reserve Room</button>
+        </div>
+        <div class="ticket">
+            <img src="pictures/room11.jpg" style="width:500px;" alt="Room 1">
+            <h3>Room 11</h3>
+            <label for="status">Status:</label>
+            <select id="status" name="status" required>
+                <option value="available">Available</option>
+                <option value="booked">Booked</option>
+            </select>
+            <label for="date">Select Date:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="time">Select Showtime:</label>
+            <input type="time" id="time" name="time" required onchange="validateReservationTime()">
+
+            <label for="persons">Number of Persons:</label>
+            <select id="persons" name="persons" onchange="updatePrice()">
+                <option value="1">1 person</option>
+                <option value="2">2 persons</option>
+            </select>
+            <h4>FOODS</h4>
+            <div class="add-on">
+                <input type="checkbox" id="popcorn" name="add-ons[]" value="Popcorn">
+                <label for="popcorn">
+                    <img src="pictures/popcorn.jpg" alt="Popcorn">
+                    <span>Popcorn - 5.00</span>
+                </label>
+            </div>
+
+            <div class="add-on">
+                <input type="checkbox" id="soda" name="add-ons[]" value="Soda">
+                <label for="soda">
+                    <img src="pictures/soda.jpg" alt="Soda">
+                    <span>Soda - 3.00</span>
+                </label>
+            </div>
+
+
+            <button class="buy-button" onclick="validateReservationTime()">Reserve Room</button>
+        </div>
+
+        <!-- Add more tickets as needed -->
+    </div>
